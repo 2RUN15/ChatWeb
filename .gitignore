@@ -1,0 +1,70 @@
+# ======================
+# Python
+# ======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual Environment
+venv/
+.env/
+.envrc
+
+# ======================
+# Logs
+# ======================
+*.log
+
+# ======================
+# VS Code
+# ======================
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+
+# ======================
+# macOS
+# ======================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# ======================
+# PyInstaller
+# ======================
+*.manifest
+*.spec
+
+# ======================
+# Jupyter
+# ======================
+.ipynb_checkpoints
+
+# ======================
+# Coverage / Test
+# ======================
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+
+# ======================
+# SQLite / Local DB
+# ======================
+*.sqlite3
+*.db
+
+# ======================
+# Secrets
+# ======================
+config.json
+secrets.json
+.env.local
